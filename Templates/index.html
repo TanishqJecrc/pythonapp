@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Welcome to the Python App</h1>
+    <p>This is a simple web application built with Flask.</p>
+    <p>Click the button below to see the current date and time.</p>
+    <form action="/datetime" method="get">
+        <button type="submit">Get Current Date and Time</button>
+    </form>
+    <p>{{ message }}</p>
+    <p>{{ datetime }}</p>
+</body>
+</html>
